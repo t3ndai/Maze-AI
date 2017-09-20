@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Dzonga/Downloads/AlgoProj3/main.cpp
+python2.7/Python.h
+-
+pyconfig.h
+-
+iostream
+-
+boost/python.hpp
+-
+cstdlib
+-
+fstream
+-
+stdio.h
+-
+stdlib.h
+-
+
+/usr/include/python2.7/pyconfig.h
+
